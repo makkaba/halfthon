@@ -1,0 +1,166 @@
+<body class="add-product">
+    <nav class="navbar navbar-ct-primary" role="navigation-demo">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">MakZio</a>
+        </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navigation-example-2">
+          <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#">
+                        Discover
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Wishlist
+                    </a>
+                </li>
+
+               
+               
+           </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-->
+    </nav> 
+
+    
+    
+<div class="wrapper">
+    <div class="main">
+        <div class="section section-nude">
+            <div class="container">
+                <h3>Add Product</h3>
+                <form>
+                    <div class="row">
+                        <div class="col-md-5 col-sm-5">
+                            <h6>Product Image</h6>
+                            <div class="fileinput fileinput-new text-center" data-provides="fileinput">
+                              <div class="fileinput-new thumbnail img-no-padding" style="max-width: 370px; max-height: 250px;">
+                                <img src="../assets/img/image_placeholder.jpg" alt="...">
+                              </div>
+                              <div class="fileinput-preview fileinput-exists thumbnail img-no-padding" style="max-width: 370px; max-height: 250px;"></div>
+                              <div>
+                                <span class="btn btn-default btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+                                <a href="#" class="btn btn-simple btn-danger fileinput-exists" data-dismiss="fileinput"><i class="fa fa-times"></i> Remove</a>
+                              </div>
+                            </div>
+                            
+                            <h6>Tags</h6>
+                            <div id="tags">
+                                <input name="tagsinput" class="tagsinput" value="Minimal, Light, New, Friends" />
+                                        <!-- You can change "tag-primary" with with "tag-info", "tag-success", "tag-warning","tag-danger" -->
+                            </div>
+                            <h6>Categories</h6>
+                            <div id="tags-2">
+                                <input name="tagsinput-2" class="tagsinput" value="Food" />
+                            </div>
+                            
+                            <h6>Format <span class="icon-danger">*</span></h6>
+                            <label class="radio">
+                                <input type="radio" name="optionsRadios" data-toggle="radio" id="optionsRadios1" value="option1">
+                                <i></i>Digital
+                            </label>
+                            <label class="radio">
+                                <input type="radio" name="optionsRadios" data-toggle="radio" id="optionsRadios2" value="option1" checked>
+                                <i></i>Print
+                            </label>
+                          
+                        </div>
+                        
+                        <div class="col-md-7 col-sm-7">
+                            <div class="form-group">
+                                <h6>Name <span class="icon-danger">*</span></h6>
+                                <input type="text" class="form-control border-input" placeholder="enter the product name here...">
+                            </div>  
+                            <div class="form-group">
+                                <h6>Tagline <span class="icon-danger">*</span></h6>
+                                <input type="text" class="form-control border-input" placeholder="enter the product tagline here...">
+                            </div>  
+                            <div class="row price-row">
+                                <div class="col-md-6">
+                                    <h6>Price <span class="icon-danger">*</span></h6>
+                                    <div class="input-group border-input">
+                                        <input type="text" value="" placeholder="enter price" class="form-control border-input">
+                                        <span class="input-group-addon"><i class="fa fa-euro"></i></span>
+                                    </div>
+    
+                                </div>
+                                <div class="col-md-6">
+                                    <h6>Discount</h6>
+                                    <div class="input-group border-input">
+                                        <input type="text" value="" placeholder="enter discount" class="form-control border-input">
+                                        <span class="input-group-addon">%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <h6>Description</h6>
+                                <textarea class="form-control textarea-limited border-input" placeholder="This is a textarea limited to 150 characters." rows="10", data-limit="150" ></textarea>
+                                <h5><small><span id="textarea-limited-message" class="pull-right">150 characters left</span></small></h5>
+                        
+                            </div>
+                            <label class="checkbox display-checkbox" for="checkbox1">
+                                <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox">
+                                Display on landing page
+                            </label>
+                        </div>
+                    </div>
+
+
+                    <div class="row buttons-row">
+                        <div class="col-md-4 col-sm-4">
+                            <button class="btn btn-danger btn-block">Cancel</button>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <button class="btn btn-primary btn-block">Save</button>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <button class="btn btn-primary btn-fill btn-block">Save & Publish </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div> 
+    </div>
+</div>
+    
+
+<footer class="footer-demo footer-black">
+    <div class="container">
+        <nav class="pull-left">
+            <ul>
+
+                <li>
+                    <a href="http://www.creative-tim.com">
+                        Creative Tim
+                    </a>
+                </li>
+                <li>
+                    <a href="http://blog.creative-tim.com">
+                       Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.creative-tim.com/product/rubik">
+                        Licenses 
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="copyright pull-right">
+            &copy; 2016, made with <i class="fa fa-heart heart"></i> by Creative Tim
+        </div>
+    </div>
+</footer>
+    
+</body>
